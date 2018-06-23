@@ -1,0 +1,3 @@
+call npm install --msvs_version=2015
+call C:\\Users\\David\\AppData\\Local\\Programs\\Python\\Python35\\python.exe %~dp0\..\tools\\python\\source\\generatevc.py %~dp0 %~dp0vs webscrape -i .filters -i .sln -i .vcxproj -i .suo -i .sdf  -c Main
+set /p DUMMY=Hit ENTER to continue...
